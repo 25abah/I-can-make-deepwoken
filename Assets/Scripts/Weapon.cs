@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private int damage;
+    private  int range;
     void Start()
     {
         
@@ -12,5 +13,14 @@ public class Weapon : MonoBehaviour
     void Update()
     {
         
+    }
+    public void attack()
+    {
+        
+        Debug.Log("attck");
+    }
+    public void parry()
+    {
+        Debug.Log("parry");
     }
 }
